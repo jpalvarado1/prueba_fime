@@ -1,0 +1,18 @@
+{
+  "name": "DevOps_Workshop",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Demo_app_for_DevOps_Academy",
+  "main": "app.js",
+  "author": "Raul <raul.a.mascarenas@accenture.com>",
+  "license": "Professional Develoment",
+  "scripts":{
+    "test": "node_modules/mocha/bin/mocha **/test.js"
+  },
+  "dependencies": {
+    "express": "3.2.4",
+    "jade": "1.11.0",
+    "mocha": "^1.20.1",
+    "supertest": "^1.1.0"
+  }
+}
